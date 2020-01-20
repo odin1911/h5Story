@@ -36,8 +36,11 @@ git remote set-url origin git://mirrors.ustc.edu.cn/brew.git
 cd "$(brew --repo)/Library/Taps/homebrew/homebrew-core"
 git remote set-url origin git://mirrors.ustc.edu.cn/homebrew-core.git
 
-cd "$(brew --repo)"/Library/Taps/homebrew/homebrew-cask
+cd "$(brew --repo)/Library/Taps/homebrew/homebrew-cask"
 git remote set-url origin https://mirrors.ustc.edu.cn/homebrew-cask.git
+
+cd "$(brew --repo)/Library/Taps/homebrew/homebrew-cask-fonts"
+git remote set-url origin https://gitee.com/od1911/homebrew-cask-fonts.git
 
 bash设置：
 echo 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles' >> ~/.bash_profile
