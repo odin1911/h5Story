@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- form -->
+    <form action="hd.php" method="POST">
+        <fieldset>
+            <legend>测试</legend>
+            <input type="text">
+        </fieldset>
+    </form>
+
+    <!-- label -->
+    <form action="hd.php" method="POST" novalidate>
+        <label for="title">标题</label>
+        <input type="text" name="title" id="title">
+        <!-- 文本框放在 label 标签内部，这样就不需要设置 id 与 for 属性了 -->
+        <label>标题<input type="text" name="title"></label>
+    </form>
+
+    <!-- input -->
+    <form action="hd.php" method="POST" novalidate>
+        <fieldset>
+            <legend>文本框</legend>
+            <input type="text" name="title" required placeholder="请输入标题" maxlength="5" value="" size="100">
+            <!-- 
+                disabled	禁止使用，不可以提交到后台
+                readonly	只读，可提交到后台
+             -->
+        </fieldset>
+    </form>
+
+    <!-- submit -->
+    <input type="submit" name="submit" value="提交表单"><br>
+    <button type="submit">提交表单</button><br>
+
+    <!-- readonly -->
+    <input type="text" name="web" value="houdunren.com" readonly>
+
+    <!-- pattern -->
+    <form action="">
+        <input type="text" name="username" pattern="[A-z]{5,20}" oninvalid="validate('请输入5~20位字母的用户名')">
+        <button>提交</button>
+    </form>
+    <script>
+        function validate(message) {
+            alert(message);
+        }
+    </script>
+
+    <!-- textarea -->
+    <textarea name="content" cols="30" rows="3">houdunren.com</textarea>
+    <br><br>
+
+    <!-- select -->
+    <select name="lesson">
+        <option value="">== 选择课程 ==</option>
+        <optgroup label="后台">
+            <option value="php">PHP</option>
+            <option value="linux">LINUX</option>
+            <option value="mysql">MYSQL</option>
+        </optgroup>
+        <optgroup label="前台">
+            <option value="php">HTML</option>
+            <option value="linux">JAVASCRIPT</option>
+            <option value="mysql">CSS</option>
+        </optgroup>
+    </select>
+    <br> <br>
+
+    <!-- radio -->
+    <input type="radio" name="sex" value="boy" id="boy">
+    <label for="boy">男</label>
+    <input type="radio" name="sex" value="girl" id="girl" checked>
+    <label for="girl">女</label>
+    <br> <br>
+
+    <!-- checkbox -->
+    <fieldset>
+        <legend>复选框</legend>
+        <input type="checkbox" name="sex" value="boy" id="boy">
+        <label for="boy">PHP</label>
+
+        <input type="checkbox" name="sex" value="girl" id="girl" checked>
+        <label for="girl">MYSQL</label>
+    </fieldset>
+    <br>
+
+    <!-- 文件上传 -->
+    <form action="" method="POST" enctype="multipart/form-data">
+        <fieldset>
+            <input type="file" name="icon" multiple="multiple" accept="image/png,image/gif">
+        </fieldset>
+        <button>保存</button>
+    </form>
+    <br>
+
+    <!-- 日期 -->
+    <input type="date" step="5" min="2020-09-22" max="2025-01-15" name="datetime">
+    <br><br>
+
+    <!-- 周 -->
+    <input type="week">
+    <br><br>
+
+    <!-- 月 -->
+    <input type="month">
+    <br><br>
+
+    <!-- 日期时间 -->
+    <input type="datetime-local" name="datetime">
+    <br><br>
+
+    <!-- datalist -->
+    <form action="" method="post">
+        <input type="text" list="lesson">
+        <datalist id="lesson">
+            <option value="PHP">后台管理语言</option>
+            <option value="CSS">美化网站页面</option>
+            <option value="MYSQL">掌握数据库使用</option>
+        </datalist>
+    </form>
+    <br>
+
+    <!-- autocomplete -->
+    <form action="">
+        <input type="search" autocomplete="on" name="content" />
+        <button>提交</button>
+    </form>
+
+    <!--  -->
+    <style>
+        .li-style1 {
+            /* 
+                    circle      空心圆
+                    disc        实心圆
+                    square      实心方块
+                    decimal     数字
+                    upper-alpha 大写字母
+                    lower-alpha 小写字母
+                    upper-roman 大写罗马数字
+                    lower-roman 小写罗马数字
+                     */
+            list-style-type: decimal;
+        }
+
+        .li-style2 {
+            /* 取消风格 */
+            list-style: none;
+        }
+
+        .li-style3 {
+            /*inside 内部 outside 外部（默认）*/
+            list-style-position: inside;
+        }
+    </style>
+
+    <ol start="1">
+        <li>后盾人</li>
+        <li>houdunren.com</li>
+        <li>hdcms.com</li>
+    </ol>
+
+    <!--  -->
+    <ul>
+        <li>后盾人</li>
+        <li>houdunren.com</li>
+        <li>hdcms.com</li>
+    </ul>
+
+    <!--  -->
+    <dl>
+        <dt>开源产品</dt>
+        <dd>hdcms内容管理系统</dd>
+        <dd>hdjs前库组件库</dd>
+
+        <dt>网站导航</dt>
+        <dd>houdunren.com</dd>
+        <dd>houdunwang.com</dd>
+    </dl>
+</body>
+
+</html>

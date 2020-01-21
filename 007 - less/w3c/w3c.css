@@ -1,0 +1,65 @@
+/* 扩展 :extend */
+h2 {
+  font-style: italic;
+}
+.style,
+h2 {
+  background: green;
+}
+/* 混合 minin */
+.p1 {
+  color: red;
+}
+.p2 {
+  background: #64d9c0;
+  color: red;
+}
+.p3 {
+  background: #DAA520;
+  color: red;
+}
+/* 可以创建一个mixin，它可以通过简单地放置括号后在输出中消失。 */
+.myclass {
+  background: #64d9c0;
+  padding-left: 100px;
+}
+/* mixins不仅可以包含属性，还可以包含选择器。 */
+.a2:hover {
+  background: #FFC0CB;
+}
+/* 命名空间用于在通用名称下对mixin进行分组。 使用命名空间可以避免名称冲突，并从外部封装mixin组。 */
+p {
+  color: red;
+}
+/* 当guard应用于命名空间时，只有在guard条件返回true时才使用由命名空间定义的mixin。 命名空间防护类似于mixins上的guard。 */
+p {
+  color: red;
+}
+/* ！important 关键字用于覆盖特定属性。 当它在mixin调用之后放置时，它会将所有继承的属性标记为！important 。 */
+.para1 {
+  color: #900;
+  background: #F7BE81;
+}
+.para2 {
+  color: #900 !important;
+  background: #F7BE81 !important;
+}
+/* 混合参数 */
+.myheader {
+  border: 2px dashed green;
+}
+/* Mixins具有多个参数 */
+.myclass {
+  color: #FE9A2E;
+  padding: 5, 10;
+}
+/* @arguments 包括所有传递的参数 */
+.myclass {
+  -webkit-box-shadow: 2px 2px 3px 3px;
+  -moz-box-shadow: 2px 2px 3px 3px;
+  box-shadow: 2px 2px 3px 3px;
+}
+/* 模式匹配 */
+.line {
+  color: #b30000;
+}

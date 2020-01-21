@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- 基本 -->
+    <table border="1">
+        <caption>后盾人表格标题</caption>
+        <thead>
+            <tr>
+                <th>标题</th>
+                <th>时间</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>后盾人</td>
+                <td>2020-2-22</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+
+    <!-- 水平单元格合并 -->
+    <table border="1">
+        <thead>
+            <tr>
+                <th>标题</th>
+                <th>时间</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="2">后盾人 2020-2-22</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+
+    <!-- 垂直单元格合并 -->
+    <table border="1">
+        <thead>
+            <tr>
+                <th>标题</th>
+                <th>时间</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">后盾人</td>
+                <td>2030-03-19</td>
+            </tr>
+            <tr>
+                <td>2035-11-08</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+
+    <!-- 视频 -->
+    <video src="houdunren.mp4" autoplay="autoplay" loop muted controls width="800" height="200">
+
+        <source src="houdunren.mp4" type="video/mp4">
+        <source src="houdunren.webm" type="video/webm">
+
+    </video>
+    <br><br>
+
+    <!-- 声音 -->
+    <audio controls autoplay loop preload="auto">
+        <source src="houdunren.ogg" type="audio/ogg">
+        <source src="houdunren.mp3" type="audio/mp3">
+    </audio>
+</body>
+
+</html>
