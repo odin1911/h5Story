@@ -1,5 +1,0 @@
-搭个nginx服务器
-react官网项目写一个
-全面了解react api
-学习10个常用npm库
-学下webpack4

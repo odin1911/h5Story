@@ -1,9 +1,19 @@
-001 - github环境
-002 - node环境（nvm，nrm）
-003 - mac系统
-004 - Iterm2，zsh
-005 - vpn
-006 - html
-007 - less
+### TODO
+搭个nginx服务器在aliyun
+react官网项目写一个
+全面了解react api
+学习10个常用npm库
+学下webpack4
 
-005 - aliyun
+### DOING
+看后盾人的css视频
+eslint
+
+### DONE
+github环境
+node环境（nvm，nrm）
+mac系统
+item和zsh
+vpn
+html
+less
