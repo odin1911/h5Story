@@ -15,7 +15,7 @@ npm i -d eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin
 安装 prettier 依赖
 npm i -D prettier eslint-config-prettier eslint-plugin-prettier
 
-```
+```txt
 prettier: 格式化规则程序
 eslint-config-prettier: 将禁用任何可能干扰现有 prettier 规则的 linting 规则
 eslint-plugin-prettier: 将作为ESlint 的一部分运行 Prettier分析。
