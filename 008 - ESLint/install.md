@@ -7,11 +7,14 @@
     https://larrylu.blog/improve-code-quality-using-eslint-742cf1f384f1 安装
     https://github.com/forthealllight/blog/issues/45 *
 
+初始化
+npm init -y
+
 安装 eslint
-npm i -d eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin
+npm i -D eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin
 
 初始化 eslint
-./node_modules/.bin/eslint --init  
+./node_modules/.bin/eslint --init
 
 安装 prettier 依赖
 npm i -D prettier eslint-config-prettier eslint-plugin-prettier
