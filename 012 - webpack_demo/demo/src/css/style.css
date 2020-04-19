@@ -1,0 +1,16 @@
+#header {
+  width: 10px;
+  height: 20px;
+  color: #111;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+background: url(../images/016.jpg);
+transition: linear;
+}
