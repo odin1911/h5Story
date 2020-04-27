@@ -4,6 +4,7 @@ react官网项目写一个
 全面了解react api
 学习10个常用npm库
 学下webpack4
+howler.js
 
 ### DOING
 看后盾人的css视频
