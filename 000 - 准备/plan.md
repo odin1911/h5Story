@@ -7,10 +7,8 @@ react官网项目写一个
 howler.js
 
 ### DOING
-看后盾人的css视频
 eslint
-从nvm和n中选择一个
-webpack demo: 跟网上文章做一遍
+howler.js
 
 
 ### DONE
@@ -21,3 +19,6 @@ item和zsh
 vpn
 html
 less
+看后盾人的css视频
+从nvm和n中选择一个
+webpack demo: 跟网上文章做一遍
