@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Examples</title>
+  <style>
+    /* .hole {
+  width: 160px;
+  height: 160px;
+  position: relative;
+  overflow: hidden;
+}
+.hole:after {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  left: -50px;
+  top: -50px;
+  content: '';
+  border-radius: 1000px;
+  border: 80px solid #0079AB;
+} */
+  </style>
+</head>
+
+<body>
+  <audio preload="true" id="player" controls="controls" src="https://course-assets.alo7.com/generate/archive/qrcode_resources/NCE/audio/37756_f5a609cedfd4bd1eb831b396ed853e571653eb1cf2ba7fedbf63385c61fb8713.mp3"></audio>
+  </p>
+  <select id="sel"></select>
+  </p>
+  <audio preload="true" id="player2" controls="controls" src="https://course-assets.alo7.com/generate/archive/qrcode_resources/NCE/audio/37758_d9df5002154b37d835b7f2f13e0302b7dad4af12c2c9c2c4c5ed7534d30bac97.mp3"></audio>
+  </p>
+  <select id="sel2"></select>
+  <script>
+
+    init().catch(reason => {
+      console.log(reason)
+    })
+
+    async function init() {
+      await navigator.mediaDevices.getUserMedia({ audio: true })
+      const player = document.getElementById('player')
+      const player2 = document.getElementById('player2')
+      const sel = document.getElementById('sel')
+      const sel2 = document.getElementById('sel2')
+      const devices = await navigator.mediaDevices.enumerateDevices();
+      const audioDevices = devices.filter(device => device.kind === 'audiooutput')
+      createOptions(sel, audioDevices)
+      createOptions(sel2, audioDevices)
+      bindEvent(sel, player)
+      bindEvent(sel2, player2)
+    }
+
+    function createOptions(sel, values) {
+      values.forEach(value => {
+        const option = document.createElement('option')
+        option.text = value.label
+        option.value = value.deviceId
+        sel.append(option)
+      })
+    }
+
+    function bindEvent(sel, player) {
+      sel.onchange = () => {
+        player.setSinkId(sel.value).then(() => {
+          console.log('Audio is being played on ' + sel.value)
+        }).catch(reason => {
+          console.log(reason)
+        })
+      }
+    }
+
+  </script>
+</body>
+
+</html>
