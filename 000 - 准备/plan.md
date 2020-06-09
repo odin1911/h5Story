@@ -5,14 +5,15 @@ react官网项目写一个
 学习常用npm库
 bower
 Browserifys
-monorepo
-querystring
-qs
+monorepo lerna
+querystring qs
+
 
 ### DOING
 eslint
 howler.js
 h5录音总结
+
 
 ## reading
 
