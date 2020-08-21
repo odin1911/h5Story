@@ -15,8 +15,16 @@
 1. 基于操作一致性演算(每个客户端计算)
 2. 权威主机计算结果(单个权威服务器运算)
 
-判断状态不一致: 每个客户端同时计算出每个回合的所有单位的状态的一个hash值
+判断状态不一致: 每个客户端同时计算出每个回合的所有单位的状态的一个hash值, 进行比较
 
 ## 参考资料
 
 [lockstep 网络游戏同步方案](https://blog.codingnow.com/2018/08/lockstep.html)
+
+[游戏中的网络同步机制——Lockstep](http://bindog.github.io/blog/2015/03/10/synchronization-in-multiplayer-networked-game-lockstep/)
+
+[帧锁定同步(frame lock sync)按帧同步（frame sync）状态同步(state sync)](https://zentia.github.io/2019/04/22/frame-sync/)
+
+[再谈网游同步技术](http://www.skywind.me/blog/archives/1343)
+
+https://www.one-tab.com/page/38piSj7_Qm6en2xBdR8-UQ
