@@ -1,0 +1,63 @@
+https://www.jianshu.com/p/5f6cd0866d86 | ECS架构开发思路整理 - 简书
+https://www.jianshu.com/p/6676432467e7 | 使用ECS开发游戏的经验总结 - 简书
+https://juejin.im/post/6844904016388816904 | 精读《正交的 React 组件》 - 掘金
+https://mouse0w0.github.io/2018/10/04/Programming-Principles/ | 编程原则（Programming Principles） | 耗子的博客
+http://gulu-dev.com/post/2016-08-11-doom3-network-architecture | (3/3) DOOM3 网络架构
+http://gulu-dev.com/post/2016-07-24-id-network-model-evolution | (2/3) DOOM/Quake I/II/III 网络模型的演化
+http://gulu-dev.com/post/2016-07-23-doom3-bfg-notes | (1/3) DOOM3 技术点滴
+https://answer-id.com/52535891 | architecture - 游戏引擎和数据驱动设计 - Answer-id
+https://qastack.cn/gamedev/17331/game-engine-and-data-driven-design | 游戏引擎和数据驱动设计
+https://qastack.cn/gamedev/8024/how-to-apply-data-oriented-design-with-object-oriented-programming | 如何在面向对象的编程中应用面向数据的设计？[关闭]
+https://www.zhihu.com/question/26775352 | (7 封私信 / 80 条消息) 怎么理解游戏开发中的“Data-Driven Design”？ - 知乎
+https://blog.codingnow.com/2012/03/dev_note_12.html | 云风的 BLOG: 开发笔记(12) : 位置同步策略
+https://gameinstitute.qq.com/community/detail/115398 | 从《王者荣耀》来聊聊游戏的帧同步-腾讯游戏学院
+https://docs.unrealengine.com/udk/Three/NetworkingOverview.html | UDK | NetworkingOverview
+https://www.gamasutra.com/view/feature/3094/1500_archers_on_a_288_network_.php | Gamasutra - 1500 Archers on a 28.8: Network Programming in Age of Empires and Beyond
+https://www.jianshu.com/p/ec39f79c0412 | 游戏开发-协议-protobuf原理详解 - 简书
+https://www.jianshu.com/p/eb792f415055 | 像《王者荣耀》一样红过 - 简书
+https://gameinstitute.qq.com/community/detail/106311 | 从《LOL》谈游戏中的随机动作优化-腾讯游戏学院
+https://www.qiujiawei.com/game-synchronize/ | 实时对战游戏的同步——问题分析 – Wyman的原创技术博客 – 恭喜你发现我的小站，撩我请加QQ：234707482、Wechat：_Wyman
+https://www.google.com/search?q=%E4%BD%8D%E7%BD%AE%E9%A2%84%E6%B5%8B%E5%92%8C%E4%BD%8D%E7%BD%AE%E6%8B%89%E6%89%AF%E6%8A%80%E6%9C%AF&oq=%E4%BD%8D%E7%BD%AE%E9%A2%84%E6%B5%8B%E5%92%8C%E4%BD%8D%E7%BD%AE%E6%8B%89%E6%89%AF%E6%8A%80%E6%9C%AF&aqs=chrome..69i57&sourceid=chrome&ie=UTF-8 | 位置预测和位置拉扯技术 - Google 搜索
+https://my.oschina.net/proginn/blog/712392 | 腾讯测试工程师：你以为会打LOL就能做测试了？ - 程序员客栈 - OSCHINA
+https://zhuanlan.zhihu.com/p/86467897 | “我以为要死了结果谷歌帮我过了BOSS” - 知乎
+https://www.zhihu.com/question/36258781 | (7 封私信 / 99+ 条消息) MOBA类游戏是如何解决网络延迟同步的？ - 知乎
+https://www.zhihu.com/question/30204598/answer/47173171 | (7 封私信 / 80 条消息) 手机格斗网游该如何避免延迟？ - 知乎
+https://www.zhihu.com/question/29076648/answer/43957516 | (7 封私信 / 80 条消息) FPS游戏中，在玩家的延时都不一样的情况下是如何做到游戏的同步性的？ - 知乎
+http://www.skywind.me/blog/archives/1343 | 再谈网游同步技术 - Skywind Inside
+https://www.google.com/search?lr=lang_zh-CN%7Clang_zh-TW&newwindow=1&biw=1920&bih=946&tbs=lr%3Alang_1zh-CN%7Clang_1zh-TW&ei=6Y4_X_XlGaeMr7wPud2jIA&q=Time+Warp+%E5%90%8C%E6%AD%A5&oq=Time+Warp+%E5%90%8C%E6%AD%A5&gs_lcp=CgZwc3ktYWIQAzoECAAQQzoCCAA6BAgAEB46BAgAEA06BggAEA0QHjoICAAQCBANEB5Qi1BYo1hgv1xoAHAAeACAAbABiAG8B5IBAzAuNpgBAKABAaoBB2d3cy13aXrAAQE&sclient=psy-ab&ved=0ahUKEwi1_qST-avrAhUnxosBHbnuCAQQ4dUDCAw&uact=5 | Time Warp 同步 - Google 搜索
+http://gb.oversea.cnki.net/KCMS/detail/detail.aspx?filename=2006187080.nh&dbcode=CMFD&dbname=CMFDREF | 网络游戏同步机制的研究 - 中国优秀硕士学位论文全文数据库
+https://www.google.com/search?q=%E5%B8%A7%E9%97%B4%E6%97%A0%E7%AD%89%E5%BE%85%E6%94%B9%E8%BF%9B&oq=%E5%B8%A7%E9%97%B4%E6%97%A0%E7%AD%89%E5%BE%85%E6%94%B9%E8%BF%9B&aqs=chrome..69i57&sourceid=chrome&ie=UTF-8 | 帧间无等待改进 - Google 搜索
+http://www.skywind.me/blog/archives/1250 | 二十年前是怎样开发游戏的？ - Skywind Inside
+http://www.skywind.me/blog/archives/1460 | 网络程序计时器通常用啥实现？ - Skywind Inside
+http://www.skywind.me/blog/archives/1216 | 体育竞技游戏的团队AI - Skywind Inside
+http://www.skywind.me/blog/archives/176 | [讲义] 游戏客户端十二小时入门 - Skywind Inside
+http://www.skywind.me/blog/archives/173 | [游戏演示] ActionScript 鼠标手势识别 - Skywind Inside
+http://www.skywind.me/blog/archives/1145 | 影子跟随算法（2007年老文一篇） - Skywind Inside
+http://www.skywind.me/blog/archives/108 | 网络游戏南北互通问题分析 - Skywind Inside
+http://www.skywind.me/blog/archives/88
+https://zhuanlan.zhihu.com/p/32420034 | 类似War3的帧同步RTS游戏开发总结 - 知乎
+https://zhuanlan.zhihu.com/p/130702310 | 细谈网络同步在游戏历史中的发展变化（上） - 知乎
+https://gameinstitute.qq.com/community/detail/106542 | 浅谈RTS游戏网络同步：3种同步机制模式的实现-腾讯游戏学院
+https://gameinstitute.qq.com/community/detail/114122 | 《守望先锋》中的网络脚本化的武器和技能系统-腾讯游戏学院
+https://gameinstitute.qq.com/community/detail/115186 | 《守望先锋》回放技术-阵亡镜头、全场最佳和亮眼表现-腾讯游戏学院
+https://gameinstitute.qq.com/community/detail/133238 | PBR：理论-腾讯游戏学院
+https://gameinstitute.qq.com/community/detail/133364 | 动态图集概述-腾讯游戏学院
+https://gameinstitute.qq.com/community/detail/133397 | 类mc地图设计-腾讯游戏学院
+https://www.zhihu.com/question/286963885 | (7 封私信 / 99+ 条消息) ECS 真的是「未来主流」的架构吗？ - 知乎
+https://zhuanlan.zhihu.com/p/63897066 | （二十六）通俗易懂理解——浮点与定点的计算机表示及互转 - 知乎
+https://zhuanlan.zhihu.com/p/56923109 | 网络游戏同步技术概述 - 知乎
+https://zentia.github.io/ | 莫得感情的杀手
+https://zhuanlan.zhihu.com/p/38001896 | 一：Unity ACT技能编辑器的制作（上） - 知乎
+https://zentia.github.io/2019/04/24/protobuf-net-no-gc/ | Unity3D游戏GC优化总结---protobuf-net无GC版本优化实践 | 莫得感情的杀手
+https://www.codenong.com/cs105592263/ | 网络同步在游戏历史中的发展变化（二）—— Lockstep与帧同步 | 码农家园
+https://zhuanlan.zhihu.com/p/130702310 | 细谈网络同步在游戏历史中的发展变化（上） - 知乎
+https://www.jianshu.com/p/6ae1a6f81b01 | 网络游戏同步技术概述 - 简书
+https://jishuin.proginn.com/p/763bfbd29ea1 | 网络同步在游戏历史中的发展变化(三)—— 状态同步的发展历程与基...-技术圈
+https://www.ershicimi.com/p/a0ae3bd4f063d7f885c0ad3fc4cb9d82 | 使用虚幻引擎 4 年，再谈谈它的网络架构-程序员的那些事-二十次幂
+https://zhuanlan.zhihu.com/p/56923109 | 网络游戏同步技术概述 - 知乎
+https://www.zhangxinxu.com/wordpress/2017/06/html5-web-audio-api-js-ux-voice/ | 利用HTML5 Web Audio API给网页JS交互增加声音 « 张鑫旭-鑫空间-鑫生活
+https://www.google.com/search?newwindow=1&ei=CdY5X5bwNImymAW9rI_oBg&q=js+%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96+%E7%83%AD%E7%82%B9&oq=js+%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96+%E7%83%AD%E7%82%B9&gs_lcp=CgZwc3ktYWIQA1Ch9gpY3ZALYJWUC2gBcAB4BoAB_QmIAbk4kgELMy0xLjAuMi4xLjSYAQCgAQGqAQdnd3Mtd2l6wAEB&sclient=psy-ab&ved=0ahUKEwjWmOCRhKHrAhUJGaYKHT3WA20Q4dUDCAw&uact=5 | js 性能优化 热点 - Google 搜索
+https://www.infoq.cn/article/NAau0-Z7U1B2rKEZcWc8 | 2019年JavaScript性能优化解析 - InfoQ
+https://juejin.im/post/6844903784095678478 | JS性能优化38条"军规"，2019年呕心力作 - 掘金
+https://zhuanlan.zhihu.com/p/88532398 | 性能优化指南（5000 字小结） - 知乎
+https://zhuanlan.zhihu.com/p/72399696 | 性能优化，我们应该知道的更多一点 - 知乎
