@@ -27,4 +27,4 @@
 
 [再谈网游同步技术](http://www.skywind.me/blog/archives/1343)
 
-https://www.one-tab.com/page/38piSj7_Qm6en2xBdR8-UQ
+[影子跟随算法](http://www.skywind.me/blog/archives/1145), 附DEMO: Shadow.rar
