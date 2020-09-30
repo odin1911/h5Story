@@ -26,7 +26,6 @@
 - Time Warp 同步
 - 帧间无等待改进
 - 本地插值平滑
-- 腾讯游戏开发精粹
 - 客户端动态预测技术和延时补偿技术
 - 脏状态追踪，相关性，优先级，过滤，带宽模型，丢包与确认
 
@@ -45,3 +44,13 @@
 [从《王者荣耀》来聊聊游戏的帧同步](https://mp.weixin.qq.com/s?__biz=MzI3MTQ1NzU2NA==&mid=2247483875&idx=1&sn=215a6d5965fbd578bf06b6c88496612f&chksm=eac0cd90ddb7448657df188a6c78777e66228cff592f61de2959867148a61a9005b80ab7b54f&scene=21#wechat_redirect)
 
 [《守望先锋》回放技术-阵亡镜头、全场最佳和亮眼表现](https://gameinstitute.qq.com/community/detail/115186)
+
+[细谈网络同步在游戏历史中的发展变化（上）](https://zhuanlan.zhihu.com/p/130702310) 这个系列算是一个汇总入口，时间也比较新
+
+[细谈网络同步在游戏历史中的发展变化（中）](https://zhuanlan.zhihu.com/p/164686867)
+
+[使用虚幻引擎4年，我想再谈谈他的网络架构【经验总结】](https://zhuanlan.zhihu.com/p/105040792) 有4篇ud4同步原理分析扩展
+
+[UE4移动的网络同步](https://zhuanlan.zhihu.com/p/114341957) 详细介绍移动同步细节
+
+[网络游戏同步技术概述](https://zhuanlan.zhihu.com/p/56923109) 概述
