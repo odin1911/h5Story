@@ -35,6 +35,10 @@ image::sunset.jpg[Sunset,300,400]
 
 image::sunset.jpg[alt=Sunset,width=300,height=400]
 
+image::images/voice.png[]
+
+this is image:images/voice.png[] button.
+
 === Id
 ====
 [#goals]
