@@ -1,0 +1,113 @@
+= Asciidoctor User Manual
+:toc:
+
+== Attributes
+
+:url-fedpkg1: https://apps.fedoraproject.org/packages/rubygem-asciidoctor
+
+:link-fedpkg2: https://apps.fedoraproject.org/packages/rubygem-asciidoctor[Asciidoctor package for Fedora]
+
+:link-fedpkg3: pass:m[https://apps.fedoraproject.org/packages/rubygem-asciidoctor[Asciidoctor package for Fedora]]
+
+link is {url-fedpkg1}[b], {link-fedpkg2}, {link-fedpkg3}
+
+:app-name: pass:quotes[MyApp^2^]
+
+{app-name}
+
+[subs="specialchars,attributes,quotes,replacements,macros,post_replacements"]
+The application is called {app-name}
+
+:long-value: If you have a very long line of text \
+that you need to substitute regularly in a document, \
+you may find it easier to split it neatly in the header \
+so it remains readable to folks reading your docs code.
+
+{long-value}
+
+:haiku: Write your docs in text, + \
+AsciiDoc makes it easy, + \
+Now get back to work!
+
+{haiku}
+
+image::sunset.jpg[Sunset,300,400]
+
+image::sunset.jpg[alt=Sunset,width=300,height=400]
+
+=== Id
+====
+[#goals]
+* Goal 1
+* Goal 2
+
+[id=goals2]
+* Goal 1
+* Goal 2
+
+[quote#goals3]
+----
+Roads? Where we're going, we don't need roads.
+----
+
+[#free_the_world]*释放世界*
+====
+
+=== Rold
+====
+[.summary]
+* Review 1
+* Review 2
+
+[role="summary"]
+* Review 1
+* Review 2
+
+[.summary.incremental]
+* Review 1
+* Review 2
+
+[role="summary,incremental"]
+* Review 1
+* Review 2
+
+[big goal]*free the world*
+
+[.big.goal]*free the world*
+
+[.rolename]`monospace text`
+
+[#idname.rolename]`monospace text`
+====
+
+=== Options
+====
+[%header%footer%autowidth]
+|===
+| Cell A | Cell B
+|===
+
+[options="header,footer,autowidth"]
+|===
+| Cell A | Cell B
+|===
+
+[horizontal, role="properties", options="step"]
+property 1:: does stuff
+property 2:: does different stuf
+
+[horizontal.properties%step]
+property 1:: does stuff
+property 2:: does different stuff
+====
+
+=== Assigning Document Attributes Inline
+====
+{set:sourcedir:src/main/java}
+
+:sourcedir: src/main/java
+====
+
+== 参考
+
+https://asciidoctor.org/docs/user-manual/[Asciidoctor User Manual]

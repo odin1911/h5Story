@@ -1,0 +1,46 @@
+= Asciidoctor User Manual
+
+== Unconstrained quotes
+
+Sara__h__, _h_
+
+**B**old, *B*
+
+&ndash;**2016**, *2016*
+
+is ** bold **, *bold*
+
+*2016*&ndash; // Constrained
+
+*9*-to-*5* // Constrained
+
+"`endpoints`", "``endpoints``", "```endpoints```", `endpoints`, ``endpoints``
+
+"[.code]``endpoints``" or \"``endpoints``"
+
+The ``class```' static methods', class', ``class``' // 所有格class'
+
+====
+The __kernel qualifier can be used with the __attribute__ keyword...
+
+#`CB###2`# and #`CB###3`#
+====
+
+====
+:dbl_: __
+:3H: ###
+
+The {dbl_}kernel qualifier can be used with the {dbl_}attribute{dbl_} keyword...
+
+#`CB{3H}2`# and #`CB{3H}3`#
+====
+
+====
+The +__kernel+ qualifier can be used with the +__attribute__+ keyword...
+
+#`+CB###2+`# and #`+CB###3+`#
+====
+
+== 参考
+
+https://asciidoctor.org/docs/user-manual/[Asciidoctor User Manual]
