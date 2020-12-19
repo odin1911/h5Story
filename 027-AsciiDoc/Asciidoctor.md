@@ -1,5 +1,7 @@
 # Asciidoctor
 
+$ asciidoctor -a data-uri index.adoc
+
 ## 参考
 
 [Asciidoctor User Manual](https://asciidoctor.org/docs/user-manual/)
