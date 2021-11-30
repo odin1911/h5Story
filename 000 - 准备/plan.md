@@ -1,5 +1,7 @@
 # Plan
 
+内容过细过分散了，且内容粒度不一致，打算整理一下，归档到`od1911-learning`下
+
 ## TODO
 
 Browserifys
