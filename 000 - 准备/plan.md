@@ -2,12 +2,8 @@
 
 ## TODO
 
-搭个nginx服务器在aliyun
-全面了解react api
-学习常用npm库
 Browserifys
 tailwindcss
-adoc
 
 ## DOING
 
